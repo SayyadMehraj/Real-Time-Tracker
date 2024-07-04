@@ -8,7 +8,7 @@ The Real-Time Location Tracker is a web application built on Node.js, Express, S
 - User Management: Handles user connections and disconnections, notifying all users of changes in real-time.
 - High Accuracy: Ensures precise location tracking with support for high accuracy settings on supported devices.
 - How It Works:
-- The application utilizes Socket.io for real-time communication between the server and clients. When a user connects, their location updates are broadcasted to all connected clients, updating markers on the map in real-time. Disconnections are also handled gracefully, removing markers from the map when users disconnect.
+ The application utilizes Socket.io for real-time communication between the server and clients. When a user connects, their location updates are broadcasted to all connected clients, updating markers on the map in real-time. Disconnections are also handled gracefully, removing markers from the map when users disconnect.
 
 # Technologies Used:
 - Node.js: Backend server environment for handling requests and managing real-time connections.
